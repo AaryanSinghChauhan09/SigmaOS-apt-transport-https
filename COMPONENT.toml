@@ -1,9 +1,9 @@
 [component]
 name = "SigmaOS-apt-transport-https"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
-description = "No GitHub description is set; component scope remains unclassified."
+description = "HTTPS APT transport method: https:// URI parser (host/port/path/userinfo, IPv6) + method descriptor."
 upstream = []
 
 [contract]
@@ -11,6 +11,6 @@ provides = ["component"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
