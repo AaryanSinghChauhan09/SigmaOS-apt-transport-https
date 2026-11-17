@@ -3,7 +3,7 @@ name = "SigmaOS-apt-transport-https"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "apt-transport-https component"
+description = "No GitHub description is set; component scope remains unclassified."
 upstream = []
 
 [contract]
